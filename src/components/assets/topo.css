@@ -1,0 +1,27 @@
+.backBanner{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BarbieLogo{
+    width: 14vw;
+    position: relative;
+    top: 3vw;
+}
+
+h2{
+    margin: 0;
+}
+
+.txt{
+    width: 49%;
+    padding-left: 2vw;
+}
+
+.bannerBarbie{
+    width: 40%;
+    padding: 3vw;
+    padding-right: 1vw;
+}
