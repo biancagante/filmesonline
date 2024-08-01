@@ -1,5 +1,6 @@
 import '../assets/navbar.css'
 import Logo from "../assets/img/Geral/Logo.png"
+import game from '../assets/img/Geral/Game_Controller.png'
 
 export default function Navbar(){
     return(
@@ -10,6 +11,7 @@ export default function Navbar(){
                 <li>Qual a sua Barbie?</li>
                 <li>Tour pela Dreamhouse</li>
                 <li>Jogos</li>
+                <img className='console' src={game} alt="ícone de console de jogo" />
             </ul>
         </div>
     );
