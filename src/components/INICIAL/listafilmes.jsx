@@ -31,5 +31,13 @@ export default function Filmes(){
                 <img className="Barbie1" src={barbie1} alt="" />               
             </div>
         </div>
-    );
+    );}
+function ListaFilmes(props) {
+    return(
+        <div>
+            <img src={props.poster} alt={props.nome} />
+            <p>{props.nome}</p>
+            <p>{props.ano}</p>
+        </div>
+    )
 }

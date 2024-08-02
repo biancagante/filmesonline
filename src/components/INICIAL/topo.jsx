@@ -8,9 +8,7 @@ export default function Banner(){
             <div className='txt'>
                 <h2 className='ajuste'>
                     Seu mundo fica mais rosa com
-                </h2>
-                <h2>
-                     a <img className='BarbieLogo' src={BarbieLogo} alt="Barbie" />
+                    a <img className='BarbieLogo' src={BarbieLogo} alt="Barbie" />
                 </h2>
                 <p className='paragrafo'>
                      No fabuloso live-action da boneca mais famosa do mundo, acompanhamos o dia a dia em Barbieland - o mundo mágico das Barbies, onde todas as versões da boneca vivem em completa harmonia e suas únicas preocupações são encontrar as melhores roupas para passear com as amigas e curtir intermináveis festas.

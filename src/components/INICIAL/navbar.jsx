@@ -10,8 +10,9 @@ export default function Navbar(){
             <ul className='listNav'>
                 <li>Qual a sua Barbie?</li>
                 <li>Tour pela Dreamhouse</li>
-                <li>Jogos</li>
+                <li className='game'>Jogos
                 <img className='console' src={game} alt="ícone de console de jogo" />
+                </li>
             </ul>
         </div>
     );

@@ -1,0 +1,30 @@
+.title {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15vw;
+    color: #FE036A;
+}
+
+.title img {
+    width: 1vw;
+    position: relative;
+}
+
+.btnFiltro {
+    background-color: #FE036A;
+    border: 0;
+    color: white;
+    padding: 0.5vw 1.5vw;
+    border-radius: 50vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.btnFiltro:hover {
+    background-color: #F5347F;
+}
