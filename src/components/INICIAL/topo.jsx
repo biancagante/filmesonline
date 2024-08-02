@@ -17,7 +17,7 @@ export default function Banner(){
                 </p>
             </div>
 
-            <img className='bannerBarbie' src={BarbieBanner} alt="" />
+            <img className='bannerBarbie' src={BarbieBanner} alt="Imagem promocional do filme" />
         </div>
     );
 }
