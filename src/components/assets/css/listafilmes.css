@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.backGaleria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.ajustar{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtGaleria{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1vw;
+}
+
+.galeriaP{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FE036A;
+}
+
+.btnFiltro{
+    width: 11vw;
+    height: 3vw;
+    border-radius: 50vw;
+    border-width: 0.1vw;
+    background-color: #FE036A;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.setaImg{
+    width: 1.4vw;
+}
+
+.fraseFinal{
+    width: 52%;
+    position: relative;
+    bottom: 88vw;
+}
+
+.fraseFinal p{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #FE036A;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+.fraseFinal img{
+    width: 8vw;
+}
+
+.Barbie3{
+    position: relative;
+    bottom: 12vw;
+    left: 43vw;
+    width: 20vw;
+}
+
+.Barbie2{
+    width: 20vw;
+    position: relative;
+    transform: scaleX(-1);
+    right: 40vw;
+    bottom: 192vw;
+}
+
+.Barbie1{
+    width: 44vw;
+    position: relative;
+    transform: scaleX(-1);
+    left: 36vw;
+    bottom: 114vw;
+}

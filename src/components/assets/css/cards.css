@@ -1,0 +1,33 @@
+.ajustar{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 42vw;
+    position: relative;
+}
+
+.poster{
+    width: 12vw;
+}
+
+.txtcard{
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+}
+
+.anocard{
+    font-size: 1.3vw;
+    margin-top: 0;
+    color: #2E2E2E;
+    font-weight: 500;
+}
