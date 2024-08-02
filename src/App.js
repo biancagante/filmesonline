@@ -1,4 +1,5 @@
 import './App.css';
+import Barbie from './components/INICIAL/barbie';
 import Conteudo from './components/INICIAL/conteudo';
 import Navbar from './components/INICIAL/navbar';
 import Banner from './components/INICIAL/topo';
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='main'>
+        <Barbie/>
         <Banner/>
         <Conteudo/>
         {/* <Filmes/> */}
