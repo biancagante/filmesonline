@@ -2,7 +2,7 @@ import './App.css';
 import Conteudo from './components/INICIAL/conteudo';
 import Navbar from './components/INICIAL/navbar';
 import Banner from './components/INICIAL/topo';
-import Filmes from './components/INICIAL/listafilmes';
+// import Filmes from './components/INICIAL/listafilmes';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className='main'>
         <Banner/>
         <Conteudo/>
-        <Filmes/>
+        {/* <Filmes/> */}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import '../assets/conteudo.css'
+import '../assets/css/conteudo.css'
 import setinha from '../assets/img/Geral/seta-baixo.png';
 
 export default function Conteudo(props) {
