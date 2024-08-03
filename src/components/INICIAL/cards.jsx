@@ -1,9 +1,11 @@
 import React from 'react';
 import Filmes from "../filmes";
 import BarbieRockers from '../assets/img/Posters/BarbieRockers.jpg';
-import '../assets/css/cards.css';
+import '../assets/css/index.css';
 
-export default function Cards({ onNavigate }) {
+// componente dos filmes que aparecem na galeria
+
+export default function Cards({ onNavigate, ordem }) {
     const filmes = [
         {
             poster: BarbieRockers,
@@ -49,10 +51,12 @@ export default function Cards({ onNavigate }) {
         },
     ];
     
+    const filmesOrdenados = filmes.sort((a, b) => ordem === 'asc' ? a.data - b.data : b.data - a.data);
+    
     return (
     <div className='cards'>
         <div className="cards-container">
-            {filmes.map((filme, index) => (
+            {filmesOrdenados.map((filme, index) => (
                 <div key={index} className="card" onClick={() => onNavigate(filme)}>
                     <Filmes
                         poster={filme.poster}

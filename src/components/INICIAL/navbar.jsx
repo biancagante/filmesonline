@@ -1,6 +1,8 @@
-import '../assets/css/navbar.css'
+import '../assets/css/index.css'
 import Logo from "../assets/img/Geral/Logo.png"
 import game from '../assets/img/Geral/Game_Controller.png'
+
+// componente navbar que é usado tanto na página inicial quanto na página de sinopse
 
 export default function Navbar(){
     return(

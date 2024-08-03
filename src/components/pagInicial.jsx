@@ -4,14 +4,14 @@ import Banner from "./INICIAL/topo";
 import Conteudo from "./INICIAL/conteudo";
 import Barbie from './INICIAL/barbie';
 
-export default function Inicial({ onNavigate }) {
+export default function Inicial({ onNavigate, ordem, alternarOrdem }) {
   return (
-    <div className='app'>
+    <div className='App'>
       <Navbar />
       <div className="main">
         <Barbie/>
         <Banner />
-        <Conteudo onNavigate={onNavigate} />
+        <Conteudo onNavigate={onNavigate} ordem={ordem} alternarOrdem={alternarOrdem}/>
       </div>
     </div>
   );

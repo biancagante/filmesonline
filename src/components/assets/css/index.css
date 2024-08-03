@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+.zIndex{
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    display: grid;
+    top: 50%;
+}
+
+.barbie1{
+    width: 18vw;
+    justify-self: right;
+    position: relative;
+    left: 7vw;
+}
+
+.barbie2{
+    width: 12vw;
+}
+
+.barbie3{
+    width: 30vw;
+}
+
+.backNav{
+    width: 100%;
+    background-color: #E81E63;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+    position: fixed;
+    top: 0vw;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    z-index: 100;
+}
+
+.imglogo{
+    width: 6vw;
+    position: sticky;
+    left: 5vw;
+    margin: 1vw;
+}
+
+.listNav{
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 500;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.console {
+    width: 2vw;
+    position: relative;
+    bottom: 0.2vh;
+}
+
+.game {
+    display: flex;
+    gap: 0.6vw;
+    align-items: center;
+}
+
+.backBanner{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BarbieLogo{
+    width: 12vw;
+    position: relative;
+    top: 3vw;
+    margin-top: -35px;
+    z-index: 3;
+    transition: 0.5s ease;
+}
+
+.ajuste {
+    width: 95%;
+    text-align: left;
+    color: #FE036A;
+    font-size: 2.5rem;
+}
+
+.txt{
+    width: 49%;
+    padding-left: 2vw;
+    display: grid;
+    gap: 2vw;
+}
+
+.bannerBarbie{
+    width: 40%;
+    padding: 3vw;
+    padding-right: 1vw;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-weight: 600
+}
+
+.BarbieLogo:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15vw;
+    color: #FE036A;
+    font-size: 1.5rem;
+}
+
+.title img {
+    width: 1vw;
+    position: relative;
+}
+
+.btnFiltro {
+    background-color: #FE036A;
+    border: 0;
+    color: white;
+    padding: 0.5vw 1.5vw;
+    border-radius: 50vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.btnFiltro:hover {
+    background-color: #F5347F;
+}
+
+.ajustar{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cards-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    gap: 1.5vw;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    margin: 3vw;
+}
+
+.poster{
+    width: 10vw;
+}
+
+.txtcard{
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+}
+
+.anocard{
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #2E2E2E;
+    font-weight: 500;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown-menu {
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 3%;
+    padding: 0;
+    list-style: none;
+    border-radius: 0.5vw;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.dropdown-menu li:hover {
+    background-color: #FDD9E5;
+}

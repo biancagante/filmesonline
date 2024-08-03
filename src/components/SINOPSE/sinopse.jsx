@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/css/index.css'
 
 export default function Sinopse({ filme, Voltar }) {
   return (

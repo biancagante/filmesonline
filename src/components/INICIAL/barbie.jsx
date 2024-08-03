@@ -1,7 +1,9 @@
-import "../assets/css/barbie.css"
+import "../assets/css/index.css"
 import barbie1 from "../assets/img/Geral/Barbie-removebg-preview.png"
 import barbie2 from "../assets/img/Geral/pngwing.com (2).png"
 import barbie3 from "../assets/img/Geral/pngwing.com.png"
+
+// componente que renderiza as barbies que ficam dos lados da página
 
 export default function Barbie(){
     return(
