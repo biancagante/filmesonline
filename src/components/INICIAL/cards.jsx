@@ -1,3 +1,4 @@
+/*
 import "../assets/css/cards.css"
 import filme1 from "../assets/img/Posters/BarbieFIlm$.jpg"
 
@@ -285,4 +286,23 @@ export default function Cards(){
                 </div>
         </div>
     );
+}
+*/
+
+import Filmes from "../filmes";
+import BarbieRockers from '../assets/img/Posters/BarbieRockers.jpg';
+import '../assets/css/cards.css';;
+
+export default function Cards({onNavigate}) {
+    return(
+        <div>
+            <div onClick={() => onNavigate('paginaPosterior')} className="poster">
+                <Filmes
+                    poster={BarbieRockers}
+                    nome='Barbie and The Rockers'
+                    data='1987'
+                />
+            </div>
+        </div>
+    )
 }

@@ -1,3 +1,4 @@
+/*
 import "../assets/css/listafilmes.css"
 import beijo from "../assets/img/Geral/beijo_barbie.png"
 import Cards from "./cards";
@@ -35,3 +36,4 @@ function ListaFilmes(props) {
         </div>
     )
 }
+*/

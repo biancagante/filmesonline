@@ -2,13 +2,18 @@
     width: 100%;
     position: absolute;
     z-index: 4;
+    display: grid;
+    top: 50%;
 }
 
 .barbie1{
-    width: 14vw;
+    width: 18vw;
+    justify-self: right;
+    position: relative;
+    left: 7vw;
 }
 
-.barbie3{
+.barbie2{
     width: 12vw;
 }
 

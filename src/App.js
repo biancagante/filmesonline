@@ -1,20 +1,11 @@
 import './App.css';
-import Barbie from './components/INICIAL/barbie';
-import Conteudo from './components/INICIAL/conteudo';
-import Navbar from './components/INICIAL/navbar';
-import Banner from './components/INICIAL/topo';
+import FilmesOnline from './components/filmesonline';
 // import Filmes from './components/INICIAL/listafilmes';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <div className='main'>
-        <Barbie/>
-        <Banner/>
-        <Conteudo/>
-        {/* <Filmes/> */}
-      </div>
+      <FilmesOnline/>
     </div>
   );
 }

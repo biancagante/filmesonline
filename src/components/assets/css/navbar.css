@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.8rem;
     position: fixed;
     top: 0vw;
     color: #fff;
@@ -15,9 +15,10 @@
 }
 
 .imglogo{
-    width: 8vw;
+    width: 6vw;
     position: sticky;
     left: 5vw;
+    margin: 1vw;
 }
 
 .listNav{
