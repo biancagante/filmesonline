@@ -7,16 +7,33 @@
 }
 
 .cards{
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    bottom: 42vw;
     position: relative;
 }
 
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+.cards-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    gap: 1.5vw;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    margin: 3vw;
+}
+
 .poster{
-    width: 12vw;
+    width: 10vw;
 }
 
 .txtcard{

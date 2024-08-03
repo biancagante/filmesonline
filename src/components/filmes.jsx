@@ -1,11 +1,12 @@
-export default function Filmes(props) {
-    return(
-        <div>
-            <img src={props.poster} alt={props.nome} />
-            <h2>{props.nome}</h2>
-            <p>{props.data}</p>
-            <p>{props.sinopse}</p>
-            <iframe src={props.trailer} frameborder="0" title={props.nome}></iframe>
-        </div>
-    )
+import React from 'react';
+import './assets/css/cards.css';
+
+export default function Filmes({ poster, nome, data }) {
+  return (
+    <div className="filme-card">
+      <img src={poster} alt={nome} className='poster'/>
+      <h2>{nome}</h2>
+      <p>{data}</p>
+    </div>
+  );
 }
