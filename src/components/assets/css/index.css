@@ -168,7 +168,7 @@
     z-index: 5;
     gap: 1.5vw;
     flex-wrap: wrap;
-    width: 65%;
+    width: 70%;
     justify-content: center;
     margin: 3vw;
 }
@@ -218,4 +218,117 @@
 
 .dropdown-menu li:hover {
     background-color: #FDD9E5;
+}
+
+.posterSinopse{
+    width: 16vw;
+}
+
+.conjuntoTxt{
+    color: #FE036A;
+}
+
+.hs{
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+    height: 1vw;
+}
+
+backSin{
+    width: 100vw;
+}
+
+.pagBack{
+    width: 100vw;
+    height: 116vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/components/assets/img/Geral/BackGroundGlitter.png);
+}
+
+.ajustePag{
+    width: 75vw;
+    background-color: #FDD9E5;
+    height: 116vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fundoFoto{
+    width: 75vw;
+    height: 30vw;
+}
+
+.AjusteInfo{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chegaDeDiv{
+    width: 60vw;
+    display: flex;
+    text-align: justify;
+    align-items: flex-end;
+    column-gap: 4vw;
+    margin-top: -14vw;
+}
+
+.sinopse{
+    padding: 4vw;
+    text-align: left;
+}
+
+.Trailler{
+    width: 75vw;
+    display: flex;
+    margin-left: 4vw;
+    color: #FE036A;
+}
+
+.footer{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterKiss{
+    width: 30vw;
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+}
+
+div#movie_player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDD9E5;
+    height: 19vw;
+}
+
+.ajusteWV{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajusteVideo{
+    width: 30vw;
+}
+
+.fraseFinal{
+    width: 50%;
+    color: #FE036A;
+    font-weight: 600;
+    margin: 4vw;
+}
+
+.beijoFinal{
+    width: 10vw;
 }
