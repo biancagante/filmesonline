@@ -26,9 +26,10 @@
 .barbie3{
     width: 37vw;
     position: relative;
-    top: 152vw;
+    top: 145vw;
     justify-self: right;
-    left: 13vw;
+    left: 8vw;
+    transform: rotateY(180deg);
 }
 
 .backNav{
@@ -185,6 +186,7 @@
     font-size: 1vw;
     font-weight: 500;
     margin: 0;
+    width: 11vw;
 }
 
 .anocard{
