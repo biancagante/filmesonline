@@ -24,7 +24,11 @@
 }
 
 .barbie3{
-    width: 30vw;
+    width: 37vw;
+    position: relative;
+    top: 152vw;
+    justify-self: right;
+    left: 13vw;
 }
 
 .backNav{
@@ -255,6 +259,8 @@ backSin{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: -4vw;
 }
 
 .fundoFoto{
@@ -312,10 +318,15 @@ div#movie_player {
 }
 
 .ajusteWV{
-    width: 75vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+iframe {
+    width: 60vw;
+    height: 70vh;
 }
 
 .ajusteVideo{

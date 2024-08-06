@@ -28,7 +28,9 @@ export default function Sinopse({ filme, Voltar }) {
           <footer className='footer'>
           <img src={footerKiss} alt="" className="FooterKiss" />
           </footer>
-          <button onClick={Voltar}>Voltar</button>
+          <div>
+            <button onClick={Voltar}>Voltar</button>
+          </div>
         </div>
       </div>
     </div>
