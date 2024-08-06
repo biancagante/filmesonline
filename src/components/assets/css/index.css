@@ -345,3 +345,17 @@ iframe {
 .beijoFinal{
     width: 10vw;
 }
+
+.btnAjuste {
+    width: 100%;
+}
+
+.btnVoltar {
+    position: relative;
+    background-color: #E81E63;
+    color: #fff;
+    border: 0;
+    height: 6vh;
+    width: 8vw;
+    font-size: 1.3rem;
+}
