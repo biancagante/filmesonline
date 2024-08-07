@@ -49,7 +49,7 @@ import ToqueMagica from '../assets/img/Posters/toque-magica.jpg';
 import Camping from '../assets/img/Posters/barbie-a-camping.jpg';
 /*fundo*/
 import FundoBarbieRockers from '../assets/img/Fundos/BarbieTheRockers.png';
-
+import FundoSensacoes from '../assets/img/Fundos/sensacao.png';
 import FundoBarbieNozes from '../assets/img/Fundos/BarbieQuebraNozes.png';
 import FundoBarbieRapunel from '../assets/img/Fundos/rapunzel.png';
 import FundoLagoCines from '../assets/img/Fundos/cisnei.png';
@@ -108,7 +108,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/3oUMf4Y-H54?si=8hoBXZnbQXgKarwm'
         },
         {
-            foto:FundoBarbieRockers,
+            foto: FundoSensacoes,
             poster: BarbieSensations,
             nome: 'Barbie e as Sensações',
             data: '1987',
