@@ -49,6 +49,51 @@ import ToqueMagica from '../assets/img/Posters/toque-magica.jpg';
 import Camping from '../assets/img/Posters/barbie-a-camping.jpg';
 /*fundo*/
 import FundoBarbieRockers from '../assets/img/Fundos/BarbieTheRockers.png';
+
+import FundoBarbieNozes from '../assets/img/Fundos/BarbieQuebraNozes.png';
+import FundoBarbieRapunel from '../assets/img/Fundos/rapunzel.png';
+import FundoLagoCines from '../assets/img/Fundos/cisnei.png';
+import FundoPrincesaPlebeia from '../assets/img/Fundos/princesaPlebeia.png';
+import FundoFairytopia from '../assets/img/Fundos/fairytopia.png';
+import FundoAladus from '../assets/img/Fundos/aladus.png';
+import FundoDiario from '../assets/img/Fundos/diario.png';
+import FundoFairytopiaMermaid from '../assets/img/Fundos/FairytopiaMermaid.png';
+import FundoTwelvePrincesses from '../assets/img/Fundos/TwelvePrincesses.png';
+import FundoFairytopiaRaibow from '../assets/img/Fundos/rainbow.png';
+import FundoIslandPrincess from '../assets/img/Fundos/island.png';
+import FundoButterfly from '../assets/img/Fundos/mariposa.png';
+import FundoDiamondCastle from '../assets/img/Fundos/diamondCastle.png';
+import FundoCancaoNatal from '../assets/img/Fundos/christmasCarol.png';
+import FundoPolegar from '../assets/img/Fundos/polegar.png';
+import FundoMosqueteiras from '../assets/img/Fundos/mosqueteiras.png';
+import FundoSereia from '../assets/img/Fundos/mermadia.png';
+import FundoModaMagia from '../assets/img/Fundos/fashionTale.png';
+import FundoSegredoFadas from '../assets/img/Fundos/fairySecret.png';
+import FundoEscolaPrincesas from '../assets/img/Fundos/princessSchool.png';
+import FundoNatalPerfeito from '../assets/img/Fundos/NatalPerfeito.png';
+import FundoSereia2 from '../assets/img/Fundos/mermaidTale2.png';
+import FundoPrincesaPopStar from '../assets/img/Fundos/princessPopstar.png';
+import FundoBailarina from '../assets/img/Fundos/Bailarina.png';
+import FundoButterflyFairy from '../assets/img/Fundos/ButterflyFairy.png';
+import FundoCavalos from '../assets/img/Fundos/Cavalos.png';
+import FundoSereiaPerolas from '../assets/img/Fundos/pearlprincess.png';
+import FundoPortalSecreto from '../assets/img/Fundos/secretDoor.png';
+import FundoSuperHeroina from '../assets/img/Fundos/powerpeincess.png';
+import FundoRainhasRock from '../assets/img/Fundos/rockRoyals.png';
+import FundoCachorrinhos from '../assets/img/Fundos/puppy.png';
+import FundoEspia from '../assets/img/Fundos/spy.png';
+import FundoEspacial from '../assets/img/Fundos/starLight.png';
+import FundoCachorrinhos2 from '../assets/img/Fundos/puppyChase.png';
+import FundoVideoGame from '../assets/img/Fundos/VideoGame.png';
+import FundoGolfinhos from '../assets/img/Fundos/dolphin.png';
+import FundoChelsea from '../assets/img/Fundos/lostBirthday.png';
+import FundoBigDreams from '../assets/img/Fundos/bigDreams.png';
+import FundoRoadTrip from '../assets/img/Fundos/roaldTrip.png';
+import FundoSkipper from '../assets/img/Fundos/babysiter.png';
+import FundoBarbie from '../assets/img/Fundos/Barbie.png';
+import FundoToqueMagica from '../assets/img/Fundos/ToquedeMagica.png';
+import FundoCamping from '../assets/img/Fundos/camping.png';
+
 // componente dos filmes que aparecem na galeria
 
 export default function Cards({ onNavigate, ordem }) {
@@ -72,7 +117,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/725UC5PcSbw?si=WWwbutlf08k_Gou6'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoBarbieNozes,
             poster: QuebraNozes,
             nome: 'O Quebra Nozes ',
             data: '2001',
@@ -81,7 +126,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/V3CGDRI5D0g?si=EUL0yFEPzF9nipih'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoBarbieRapunel,
             poster: BarbieRapunzel,
             nome: 'Rapunzel',
             data: '2002',
@@ -90,7 +135,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/1CoR0bZuMow?si=AXBITm5dhPffJfH8'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoLagoCines,
             poster: LagoCines,
             nome: 'Lago dos cisnes',
             data: '2003',
@@ -99,7 +144,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/eH4Ar5x0gv8?si=9NZuG6VvYN3rFqYq'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoPrincesaPlebeia,
             poster: PrincesaPlebeia,
             nome: 'Princesa e a plebeia',
             data: '2004',
@@ -108,7 +153,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/mFosZMx86d0?si=6IAOFSmUkS6kIH9R'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoFairytopia,
             poster: Fairytopia,
             nome: 'Fairytopia',
             data: '2005',
@@ -117,7 +162,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/79Olqu3YJ4c?si=-IXE0I8y9WR-yE5b'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoAladus,
             poster: Aladus,
             nome: 'Magia de Aladus',
             data: '2005',
@@ -126,7 +171,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/ayrgQt6yP2w?si=cZgrGK2F88SJvvMr'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoDiario,
             poster: Diario,
             nome: 'Diário da Barbie',
             data: '2006',
@@ -135,7 +180,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/LCxyHjUjaQ8?si=J5cB8318Weo5FUq_'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoFairytopiaMermaid,
             poster: FairytopiaMermaid,
             nome: 'Fairytopia Mermaidia',
             data: '2006',
@@ -144,7 +189,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: '"https://www.youtube.com/embed/Snxs-ZsuPbE?si=dTpHaYSoFji3urlt'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoTwelvePrincesses,
             poster: TwelvePrincesses,
             nome: 'As 12 Princesas bailarinas',
             data: '2006',
@@ -153,7 +198,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/KLQQHYgl5ME?si=BlNRykKTXTWzqe4-'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoFairytopiaRaibow,
             poster: FairytopiaRaibow,
             nome: 'Mágia do arco-iris',
             data: '2007',
@@ -162,7 +207,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/Wy_s7TrdNPA?si=Ehl2-a662v3I9Zka'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoIslandPrincess,
             poster: IslandPrincess,
             nome: 'Princesa da ilha',
             data: '2007',
@@ -171,7 +216,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/7JgaZlejoQE?si=d_zJ91qg7i2HTUTF'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoButterfly,
             poster: Butterfly,
             nome: 'Butterfly',
             data: '2008',
@@ -180,7 +225,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/jgHXyYy0OrY?si=BYEZbzBQsxFF3nHb'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoDiamondCastle,
             poster: DiamondCastle,
             nome: 'Castelo de diamante',
             data: '2008',
@@ -189,7 +234,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/ZhtRBaIBn_0?si=6KQ5GIsGNbC3NE6b'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoCancaoNatal,
             poster: CancaoNatal,
             nome: 'A canção de natal',
             data: '2008',
@@ -198,7 +243,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/haBHh2Oehbo?si=Jv8ctOA33mK9gg-d'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoPolegar,
             poster: Polegar,
             nome: 'A pequena polegar',
             data: '2009',
@@ -207,7 +252,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/QRw8GkW5qEE?si=p601swfe_OxsfFE9'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoMosqueteiras,
             poster: Mosqueteiras,
             nome: 'As 3 mosqueteiras',
             data: '2009',
@@ -216,7 +261,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/8Act8LrVZts?si=kyQS_E4KnIV0ux7g'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSereia,
             poster: Sereia,
             nome: 'Vida de sereia',
             data: '2010',
@@ -225,7 +270,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/eSdWtcn1jWo?si=9X_bltc_JTrFCPt-'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoModaMagia,
             poster: ModaMagia,
             nome: 'Moda e mágia',
             data: '2010',
@@ -234,7 +279,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/t-fkCuELRDc?si=K9-7Tn2odESoTcxn'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSegredoFadas,
             poster: SegredoFadas,
             nome: 'Segredo das fadas',
             data: '2011',
@@ -243,7 +288,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/D-iX-T8d-AY?si=mDIa-BHsmaHgXhmS'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoEscolaPrincesas,
             poster: EscolaPrincesas,
             nome: 'Escola de princesas',
             data: '2011',
@@ -252,7 +297,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/G-9dkcZtjYA?si=EoDGXpSBV13lFQkN'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoNatalPerfeito,
             poster: NatalPerfeito,
             nome: 'Um natal perfeito',
             data: '2011',
@@ -261,7 +306,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/AtAB2I6osL0?si=gJcL3-manr5v1KeR'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSereia2,
             poster: Sereia2,
             nome: 'Vida de sereia 2',
             data: '2012',
@@ -270,7 +315,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/scJrm-RMp4g?si=0hC-oEAArIBpZxY6'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoPrincesaPopStar,
             poster: PrincesaPopStar,
             nome: 'Princesa e a popstar',
             data: '2012',
@@ -279,7 +324,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/MMSxXvrxvV0?si=WeYl6amt1t1XpfCD'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoBailarina,
             poster: Bailarina,
             nome: 'As sapatilhas mágicas',
             data: '2013',
@@ -288,7 +333,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/eQ253YXl7GY?si=u3J0Cq5ggswBhBfa'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoButterflyFairy,
             poster: ButterflyFairy,
             nome: 'Butterfly e a princesa fairy',
             data: '2013',
@@ -297,7 +342,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/0IrFK2-fbRk?si=P5pbI_gw_6g47avP'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoCamping,
             poster: Camping,
             nome: 'Acampamento da Barbie',
             data: '2013',
@@ -306,7 +351,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/T53JcUk-gaM?si=FQcAPEoFKvLC8Zhk'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoCavalos,
             poster: Cavalos,
             nome: 'Aventura de cavalos',
             data: '2013',
@@ -315,7 +360,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/6W5CKfQGOOM?si=oexQxVF2a93v2bxW'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSereiaPerolas,
             poster: SereiaPerolas,
             nome: 'A sereia das pérolas',
             data: '2014',
@@ -324,7 +369,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/4EfK5XCd6QM?si=Bmd7pEpzYh3wuFf2'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoPortalSecreto,
             poster: PortalSecreto,
             nome: 'O portal secreto',
             data: '2014',
@@ -333,7 +378,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/fuC906FVUhk?si=TrElNKYAvAaP9nxH'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSuperHeroina,
             poster: SuperHeroina,
             nome: 'Super princesa',
             data: '2015',
@@ -342,7 +387,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/8fGxrBrQbIk?si=l6RIMm1qeCtdluUf'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoRainhasRock,
             poster: RainhasRock,
             nome: 'Rainhas do rock',
             data: '2015',
@@ -351,7 +396,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/UxGbHveYJ3w?si=_uw3if_7Tz-1luKv'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoCachorrinhos,
             poster: Cachorrinhos,
             nome: 'Uma aventura de cachorrinhos',
             data: '2015',
@@ -360,7 +405,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/QLIax1NWEmc?si=2E1kvMFK9o5uhTEW'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoEspia,
             poster: Espia,
             nome: 'Agentes secretas',
             data: '2016',
@@ -369,7 +414,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/DVAzzYUjyaM?si=EVcx7bxL05gJqDDL'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoEspacial,
             poster: Espacial,
             nome: 'Aventura nas estrelas',
             data: '2016',
@@ -378,7 +423,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/C0bYFTxOj1M?si=Z6EMdPs0K9AmCJjY'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoCachorrinhos2,
             poster: Cachorrinhos2,
             nome: 'Em busca dos cachorrinhos',
             data: '2016',
@@ -387,7 +432,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/4KEhFn0hvbU?si=JyXRNnIsLaDRr3cI'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoVideoGame,
             poster: VideoGame,
             nome: 'Um mundo de vídeo game',
             data: '2017',
@@ -396,7 +441,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/B66Dfk6LfZ4?si=qiCAC0K-SHomPzAM'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoGolfinhos,
             poster: Golfinhos,
             nome: 'Golfinhos mágicos',
             data: '2017',
@@ -405,7 +450,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/tmJig0CtuII?si=hWWvwmmQFsi_5-9B'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoChelsea,
             poster: Chelsea,
             nome: 'O aniversário perdido',
             data: '2021',
@@ -414,7 +459,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/V0ah4bVILfA?si=vqE-gFnjmTTB0PJm'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoBigDreams,
             poster: BigDreams,
             nome: 'Grande cidades, Grandes sonhos',
             data: '2021',
@@ -423,7 +468,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/pWb9UFjDc5o?si=IiUJygO-4HSMOpV0'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoRoadTrip,
             poster: RoadTrip,
             nome: 'A viagem épica da Barbie',
             data: '2022',
@@ -432,7 +477,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/b-luDw4nUCI?si=mwQRTjW5NuC8oiPM'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoSkipper,
             poster: Skipper,
             nome: 'A grande aventura de babás',
             data: '2023',
@@ -441,7 +486,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/UtQu8YlFolw?si=szu5ZJKKMZUJmzMp'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoBarbie,
             poster: Barbie,
             nome: 'Barbie',
             data: '2023',
@@ -450,7 +495,7 @@ export default function Cards({ onNavigate, ordem }) {
             trailer: 'https://www.youtube.com/embed/pBk4NYhWNMM?si=G634aYHJJ22Cmelb'
         },
         {
-            foto:FundoBarbieRockers,
+            foto:FundoToqueMagica,
             poster: ToqueMagica,
             nome: 'Um toque de mágica',
             data: '2024',
